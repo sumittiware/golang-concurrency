@@ -18,15 +18,15 @@ Go's runtime automatically multiplexes goroutines onto the available logical pro
 
 This repository contains three classic concurrency problems solved in Go, demonstrating the usage of goroutines, channels, and other synchronization primitives. Each problem is contained in a separate folder with its own README file explaining the problem and the solution implemented.
 
-1. **[Producer-Consumer Problem](producer-consumer/README.md)**
+1. **[Producer-Consumer Problem](producer-consumer/readme.md)**
    - This problem involves coordinating the production and consumption of data items in a shared buffer.
    - The solution demonstrates the use of goroutines and channels for safe communication between producers and consumers.
 
-2. **[Dining Philosophers Problem](dining-philosophers/README.md)**
+2. **[Dining Philosophers Problem](dining-philosophers/readme.md)**
    - This problem revolves around a group of philosophers who must coordinate their actions to avoid deadlock and starvation while dining.
    - The solution utilizes mutexes and goroutines to ensure proper synchronization and prevent deadlock and starvation.
 
-3. **[Sleeping Barber Problem](sleeping-barber/README.md)**
+3. **[Sleeping Barber Problem](sleeping-barber/readme.md)**
    - This problem involves managing a barbershop with limited waiting room capacity and coordinating between the barber and customers.
    - The solution employs goroutines and channels to simulate the arrival of customers, manage the waiting room capacity, and ensure proper synchronization between the barber and customers.
 
